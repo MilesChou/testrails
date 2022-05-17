@@ -11,7 +11,9 @@
         }
     ],
     "require": {
-        "php": "^7.3 | ^8.0"
+        "php": "^7.3 | ^8.0",
+        "guzzlehttp/guzzle": "^7.4",
+        "illuminate/http": "^9.12"
     },
     "require-dev": {
         "laravel-zero/framework": "^9.1",
@@ -20,12 +22,12 @@
     },
     "autoload": {
         "psr-4": {
+            "App\\": "app",
             "MilesChou\\Testrails\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "App\\": "app",
             "Tests\\": "tests"
         }
     },
