@@ -44,3 +44,11 @@ Desktop.ini
 
 # Artifacts files
 /build
+
+# build files
+/bootstrap/cache/
+/builds
+
+# env file
+/.env
+.phpunit.result.cache
