@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MilesChou\Template;
+namespace MilesChou\Testrails;
 
 class Sample
 {
